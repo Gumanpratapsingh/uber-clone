@@ -1,13 +1,18 @@
 {
+ 
   "name": "uber-clone",
   "private": true,
+  
   "scripts": {
+    
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "firebase": "^9.3.0",
+    "gh-pages": "^3.2.3",
     "mapbox-gl": "^2.5.1",
     "next": "12.0.2",
     "react": "17.0.2",
